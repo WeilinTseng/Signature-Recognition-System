@@ -78,7 +78,7 @@ def show(Val, testImage_path):
     label.place(x=200, y=75, anchor=CENTER)
 
     # 顯示簽名真假
-    if Val == [1]:
+    if Val == [0]:
         label1 = tk.Label(window, text='True', bg='#4CBB17', font=('Arial', 20), width=5, height=1)
         label1.place(x=200, y=160, anchor=CENTER)
     else:
